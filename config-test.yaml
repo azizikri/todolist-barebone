@@ -1,0 +1,10 @@
+app:
+  port: 3000
+database:
+  driver: "mysql"
+  url: "azizikri:azi@tcp(127.0.0.1:3306)/todolist?charset=utf8mb4&parseTime=True&loc=Local"
+  # driver: "sqlite"
+  # url: "todo.db"
+rate_limiting:
+  max: 100
+  expiration: 300000
